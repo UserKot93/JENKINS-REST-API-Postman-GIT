@@ -56,4 +56,4 @@ curl 'https://stackoverflow.com/' \
 4. insert into postman into import command (raw text) 
 5. GET: https://stackoverflow.com/
 ------------------------------------------------------
-2021-11-14- STOP IN 2/1-12 Min
+
