@@ -2,58 +2,16 @@ NASA KEY USER: 96KmSg4xmxx1rwZdGKw8G2aH5ELaeJmrjxXWNphM
 EXAMPLE QUERY: https://api.nasa.gov/
 ID:1ec4e5da-7936-4645-9f5c-bd40e5b0937a
 
-Testing the service through the GUI:
-
-GET: https://api.nasa.gov/planetary/apod? api_key = NASA KEY USER - проверка эндпойнта на достоверность информации
-
-GET: https://api.nasa.gov/planetary/apod?api_key=NASA KEY USER&date=2021-11-12 	
-GET: https://api.nasa.gov/planetary/apod?api_key=NASA KEY USER&date=1919-06-14 - проверка макксимальных и минимальных значений параметра date
-GET: https://api.nasa.gov/planetary/apod?api_key=NASA KEY USER&date=1995-06-16
-
-GET: https://api.nasa.gov/planetary/apod?api_key=96KmSg4xmxx1rwZdGKw8G2aH5ELaeJmrjxXWNphM&thumbs=true
-GET: https://api.nasa.gov/planetary/apod?api_key=96KmSg4xmxx1rwZdGKw8G2aH5ELaeJmrjxXWNphM&thumbs=false - проверка булевых значений
-
 training POSTbin(https://postb.in/)
 
-1. Create bin:
-POSTBIN:'1636914290730-6710472845006' 
-curl -H 'X-Status: Awesome' https://postb.in/1636914290730-6710472845006
-wget https://postb.in/1636914290730-6710472845006?hello=world
-echo "hello=world" | POST https://postb.in/1636914290730-6710472845006
+Bin '1636976668047-9036068255081'
+curl -H 'X-Status: Awesome' https://postb.in/1636976668047-9036068255081
+wget https://postb.in/1636976668047-9036068255081?hello=world
+echo "hello=world" | POST https://postb.in/1636976668047-9036068255081
 
-2. GET: https://postb.in/1636914290730-6710472845006
-3. refresh the page
-4. add a parameter Content-type/application/json
-5. refresh the page
-6. add cookies
-7. refresh the page
-8. POST: https://postb.in/1636914290730-6710472845006
-9. add a parameter in body(rav)
-10. refresh the page
 
-training stackoverflow(https://stackoverflow.com/)
 
-1. open the console in google
-2. refresh the page(https://stackoverflow.com/)
-3. copy curl: 
-curl 'https://stackoverflow.com/' \
-  -H 'authority: stackoverflow.com' \
-  -H 'cache-control: max-age=0' \
-  -H 'sec-ch-ua: "Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"' \
-  -H 'sec-ch-ua-mobile: ?0' \
-  -H 'sec-ch-ua-platform: "Linux"' \
-  -H 'upgrade-insecure-requests: 1' \
-  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36' \
-  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' \
-  -H 'sec-fetch-site: cross-site' \
-  -H 'sec-fetch-mode: navigate' \
-  -H 'sec-fetch-user: ?1' \
-  -H 'sec-fetch-dest: document' \
-  -H 'accept-language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7' \
-  -H 'cookie: prov=f04ab8e1-f1aa-75d1-35db-fd6c9867e1d5; _ga=GA1.2.745391481.1632745352; _gid=GA1.2.782864884.1636915532' \
-  --compressed
   
-4. insert into postman into import command (raw text) 
-5. GET: https://stackoverflow.com/
+
 ------------------------------------------------------
 
